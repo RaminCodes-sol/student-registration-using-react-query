@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    * {
+        @apply relative;
+    }
+    :root {
+        @apply m-0 p-0 box-border;
+    }
+
+    body {
+        @apply bg-[#141414] text-white;
+    }
+
+    button {
+        @apply flex justify-center items-center cursor-pointer;
+    }
+
+    input::placeholder {
+        @apply text-sm;
+    }
+}
+
+@layer components {
+    .table_row {
+        display: grid;
+        grid-template-columns: auto 150px 1fr auto;
+    }
+
+    @media (min-width: 41em) {
+        .table_row {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}

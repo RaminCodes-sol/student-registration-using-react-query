@@ -1,0 +1,14 @@
+{
+  "students": [
+    { "id": 1, "name": "John Doe", "grade": 9, "year": 2020 },
+    { "id": 2, "name": "Jane Smith", "grade": 10, "year": 2019 },
+    { "id": 3, "name": "Bob Johnson", "grade": 11, "year": 2018 },
+    { "id": 4, "name": "Sara Lee", "grade": 12, "year": 2017 },
+    { "id": 5, "name": "Mike Brown", "grade": 9, "year": 2020 },
+    { "id": 6, "name": "Lisa Green", "grade": 10, "year": 2019 },
+    { "id": 7, "name": "David Kim", "grade": 11, "year": 2018 },
+    { "id": 8, "name": "Amy Chen", "grade": 12, "year": 2017 },
+    { "id": 9, "name": "Tommy Nguyen", "grade": 9, "year": 2020 },
+    { "id": 10, "name": "Emily Davis", "grade": 10, "year": 2019 }
+  ]
+}
